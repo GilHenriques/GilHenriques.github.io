@@ -1,5 +1,6 @@
 ---
-title: "Personal Website"
+title: "Gil J. B. Henriques"
 ---
 
 Hello, World!
+About me: yadda yadda
