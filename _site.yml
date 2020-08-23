@@ -7,13 +7,12 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Research"
-      icon: fa-flask
       href: research.html
     - text: "Publications"
-      icon: fa-file-text
+      href: publications.html
+    - text: "Teaching and outreach"
       href: publications.html
     - text: "CV"
-      icon: fa-graduation-cap
       href: cv.html
   right:
     - text: "Contact"
