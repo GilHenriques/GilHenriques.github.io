@@ -4,15 +4,21 @@ navbar:
   title: "Gil J. B. Henriques"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Research"
+      icon: fa-flask
       href: research.html
     - text: "Publications"
+      icon: fa-file-text
       href: publications.html
     - text: "CV"
+      icon: fa-graduation-cap
       href: cv.html
+  right:
     - text: "Contact"
+      icon: fa-envelope
       href: contact.html
 output:
   html_document:
-    theme: flatly
+    theme: "paper"
