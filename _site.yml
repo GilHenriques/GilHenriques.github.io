@@ -3,21 +3,24 @@ output_dir: "."
 navbar:
   title: "Gil J. B. Henriques"
   left:
-    - text: "Home"
+    - text: "home"
       icon: fa-home
       href: index.html
-    - text: "Research"
+    - text: "research"
       href: research.html
-    - text: "Publications"
+    - text: "publications"
       href: publications.html
-    - text: "Teaching and outreach"
+    - text: "teaching and outreach"
       href: teaching.html
     - text: "CV"
-      href: cv.html
+      href: "https://docs.google.com/viewer?url=https://github.com/GilHenriques/henriques_cv/raw/master/CV.pdf"
   right:
-    - text: "Contact"
+    - text: "get in touch!"
       icon: fa-envelope
       href: contact.html
 output:
   html_document:
     theme: "paper"
+    css: ["https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+    style.css]

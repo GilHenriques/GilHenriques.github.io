@@ -1,5 +1,14 @@
 ---
-title: "Contact"
+title: "📫  Get in touch!"
 ---
 
-Under construction
+Send me an email, take a look at my academic pages, or follow me on twitter (I use it mostly for personal rather than professional purposes): 
+
+<p style="text-align: center; font-size: 46px">
+    <a href="mailto:gilhenris@gmail.com" class="fa fa-envelope"></a>
+    <a href="https://github.com/GilHenriques/" class="fa fa-github"></a>
+    <a href="https://orcid.org/0000-0003-0040-3996" class="ai ai-orcid"></a>
+    <a href="https://scholar.google.ca/citations?user=udKwQUIAAAAJ&hl=en" class="ai ai-google-scholar"></a>
+    <a href="https://twitter.com/_Gil_Henriques" class="fa fa-twitter"></a>
+</p>
+
