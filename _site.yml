@@ -13,7 +13,7 @@ navbar:
     - text: "teaching and outreach"
       href: teaching.html
     - text: "CV"
-      href: "https://docs.google.com/viewer?url=https://github.com/GilHenriques/henriques_cv/raw/master/CV.pdf"
+      href: henriques_cv/CV.pdf
   right:
     - text: "get in touch!"
       icon: fa-envelope
