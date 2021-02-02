@@ -6,12 +6,12 @@ navbar:
     - text: "home"
       icon: fa-home
       href: index.html
-    - text: "research"
-      href: research.html
+    #- text: "research"
+    #  href: research.html
     - text: "publications"
       href: publications.html
-    - text: "teaching and outreach"
-      href: teaching.html
+    #- text: "teaching and outreach"
+    #  href: teaching.html
     - text: "CV"
       href: henriques_cv/CV.pdf
   right:

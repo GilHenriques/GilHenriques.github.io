@@ -2,8 +2,10 @@
 title: "📚 Publications"
 ---
 
-## 2020
+## 2021
+**Gil J. B. Henriques**, Koichi Ito, Christoph Hauert, Michael Doebeli. On the importance of evolving phenotype distributions on evolutionary diversification. In *PLOS Computational Biology* (in press)
 
+## 2020
 **Gil J. B. Henriques**, Matthew M. Osmond. [Cooperation can promote rescue or lead to evolutionary suicide during environmental change.](henriques_cv/papers/henriques2020.pdf) In *Evolution* 74:7, 1255--1273
 
 Andrés E. Quiñones, **Gil J. B. Henriques**, Ido Pen. [Queen‑worker conflict can drive the evolution of social plymorphism and split sex ratios in facultatively eusocial life cycles.](henriques_cv/papers/quinones2020.pdf) In *Evolution* 74:1, 15--28 <font size="2">([Digest](henriques_cv/papers/digests/digest_quinones2019.pdf))</font>

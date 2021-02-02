@@ -132,7 +132,7 @@ read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTE
 
 # Service
 ```{r}
-read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+  read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
            sheet = "Service") %>%
   brief_entries(when = Year, 
                 what = Description, .protect = FALSE)
