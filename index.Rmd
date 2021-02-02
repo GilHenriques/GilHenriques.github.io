@@ -11,7 +11,7 @@ title:  |
 My current research focuses on the evolution of social behaviors such as cooperation and conflict. 
 Past research topics have included sex allocation and biological diversification. 
 I use a theoretical approach (with an emphasis on adaptive dynamics and individual‑based simulations), occasionally in combination with empirical work.
-To learn more about my work, take at look at the [research](./research.html) page, see a list of my [publications](./publications.html), or [get in touch](./contact.html).
+To learn more about my work, take at look at my [publications](./publications.html) or [get in touch](./contact.html).
 
 Right now, I'm a Ph.D. candidate at the [Biodiversity Research Centre](https://biodiversity.ubc.ca/), in the [University of British Columbia](www.ubc.ca), in Vancouver BC, Canada.
 My supervisor is [Dr Michael Doebeli](https://www.zoology.ubc.ca/~doebeli/webpage/). 
