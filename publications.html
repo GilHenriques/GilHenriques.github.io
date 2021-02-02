@@ -13,6 +13,7 @@
 
 <title>📚 Publications</title>
 
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -22,8 +23,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -284,13 +296,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="research.html">research</a>
-</li>
-<li>
   <a href="publications.html">publications</a>
-</li>
-<li>
-  <a href="teaching.html">teaching and outreach</a>
 </li>
 <li>
   <a href="henriques_cv/CV.pdf">CV</a>
@@ -319,15 +325,19 @@ $(document).ready(function () {
 
 
 <div id="section" class="section level2">
+<h2>2021</h2>
+<p><strong>Gil J. B. Henriques</strong>, Koichi Ito, Christoph Hauert, Michael Doebeli. On the importance of evolving phenotype distributions on evolutionary diversification. In <em>PLOS Computational Biology</em> (in press)</p>
+</div>
+<div id="section-1" class="section level2">
 <h2>2020</h2>
 <p><strong>Gil J. B. Henriques</strong>, Matthew M. Osmond. <a href="henriques_cv/papers/henriques2020.pdf">Cooperation can promote rescue or lead to evolutionary suicide during environmental change.</a> In <em>Evolution</em> 74:7, 1255–1273</p>
 <p>Andrés E. Quiñones, <strong>Gil J. B. Henriques</strong>, Ido Pen. <a href="henriques_cv/papers/quinones2020.pdf">Queen‑worker conflict can drive the evolution of social plymorphism and split sex ratios in facultatively eusocial life cycles.</a> In <em>Evolution</em> 74:1, 15–28 <font size="2">(<a href="henriques_cv/papers/digests/digest_quinones2019.pdf">Digest</a>)</font></p>
 </div>
-<div id="section-1" class="section level2">
+<div id="section-2" class="section level2">
 <h2>2019</h2>
 <p><strong>Gil J. B. Henriques</strong>, Simon Burton, Yaroslav Ispolatov, Michael Doebeli. <a href="henriques_cv/papers/henriques2019.pdf">Acculturation drives the evolution of intergroup conflict.</a> In <em>Proceedings of the National Academy of Sciences of the USA</em> 116:28, 14089–-14097 <font size="2">(<a href="https://scientificinquirer.com/2019/09/19/conversations-with-burt-simon-and-gil-henriques-reframing-intergroup-conflicts/">Press</a>, <a href="https://www.sciencedaily.com/releases/2019/07/190709091146.htm">more press</a>)</font></p>
 </div>
-<div id="section-2" class="section level2">
+<div id="section-3" class="section level2">
 <h2>2016</h2>
 <p>Eva J. P. Lievens, <strong>Gil J. B. Henriques</strong>, Yannis Michalakis, Thomas Lenormand. <a href="henriques_cv/papers/lievens2016.pdf">Maladaptive sex ratio adjustment in the invasive brine shrimp <em>Artemia franciscana</em>.</a> In <em>Current Biology</em> 26:11, 1463–-1467 <font size="2">(<a href="henriques_cv/papers/digests/digest_lievens2016.pdf">Digest</a>)</font></p>
 </div>
@@ -341,7 +351,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
