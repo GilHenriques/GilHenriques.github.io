@@ -1,0 +1,119 @@
+---
+name: Gil J. B.
+surname: Henriques
+position: "PhD candidiate • Evolutionary biologist"
+address: "Biodiversity Research Centre • University of British Columbia, Vancouver"
+phone: +1 604 352 0004
+www: gilhenriques.github.io/
+email: "gilhenris@gmail.com"
+#twitter: mariecurie
+github: GilHenriques
+orcid: 0000-0003-0040-3996
+#linkedin: mariecurie
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+headcolor: 414141
+aboutme: "I am a mathematical evolutionary biologist. In my research, I use analytical and numerical modeling, computer simulations, and data analysis. I am proficient in the **R** programming language and familiar with **Mathematica**, **Matlab**, and **C++**. Some of my interests include: evolutionary game theory, science communication and teaching, and data visualization."
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(dplyr)
+library(tibble)
+library(googlesheets4)
+library(naniar)
+```
+
+# Education
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "Education") %>%
+  replace_with_na_all(condition = ~.x == "NA") %>%
+  detailed_entries(with = Degree, 
+                   what = Institution, 
+                   when = Year, 
+                   where = Location, 
+                   why = Details, .protect = FALSE)
+```
+
+# Teaching and Outreach
+***Teaching experience***
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "TeachingExperience") %>%
+  mutate(Year = as.character(Year)) %>% 
+  detailed_entries(when = Year, 
+                   with = Title, 
+                   what = Institution, 
+                   where = Location, 
+                   why = Details, .protect = FALSE)
+```
+
+***Teaching training***
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "TeachingTraining") %>%
+  mutate(Year = as.character(Year)) %>% 
+  brief_entries(when = Year,  
+                what = Description, .protect = FALSE)
+```
+
+***Outreach and science communication***
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "Outreach") %>%
+  mutate(Year = as.character(Year)) %>% 
+  brief_entries(when = Year,  
+                what = Description, .protect = FALSE)
+```
+
+\pagebreak
+
+# Other Employment
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "EmploymentAndResearch") %>%
+  mutate(Year = as.character(Year)) %>% 
+  detailed_entries(when = Year, 
+                   with = Position, 
+                   what = Institution, 
+                   where = Location, 
+                   why = Details, .protect = FALSE)
+```
+
+# Publications
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "Publications") %>%
+  mutate(Year = as.character(Year)) %>% 
+  brief_entries(when = Year, 
+                with = Journal, 
+                what = Reference, .protect = FALSE)
+```
+
+# Competitive (merit-based) fellowships, scholarships and awards
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "Awards") %>%
+  mutate(Year = as.character(Year)) %>% 
+  brief_entries(when = Year, 
+                with = Money, 
+                what = Award, .protect = FALSE)
+```
+
+# Languages
+```{r}
+read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "Languages") %>%
+  brief_entries(when = Type, 
+                what = Description, .protect = FALSE)
+```
+
+# Service
+```{r}
+  read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",
+           sheet = "Service") %>%
+  brief_entries(when = Year, 
+                what = Description, .protect = FALSE)
+```
