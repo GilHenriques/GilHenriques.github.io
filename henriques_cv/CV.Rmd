@@ -112,6 +112,8 @@ read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTE
                 what = Details, .protect = FALSE)
 ```
 
+\newpage
+
 # Competitive (merit-based) fellowships, scholarships and awards
 ```{r}
 read_sheet("https://docs.google.com/spreadsheets/d/17Q6xe3vOgU-Tt27Dv9xYBss2BLTEDe5HPXOGbpkRSjI/edit#gid=0",

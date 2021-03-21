@@ -2,6 +2,9 @@
 title: "📚 Publications"
 ---
 
+## Preprints
+**Gil J. B. Henriques\***, Simon van Vliet\*, Michael Doebeli. [Multilevel selection favors fragmentation modes that maintain cooperative interactions in multispecies communities.](https://www.biorxiv.org/content/10.1101/2021.03.18.436065v1) In *BioRxiv*. (\*Equal contribution)
+
 ## 2021
 **Gil J. B. Henriques**, Koichi Ito, Christoph Hauert, Michael Doebeli. [On the importance of evolving phenotype distributions on evolutionary diversification.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008733) In *PLOS Computational Biology* 17:2, e1008733
 
