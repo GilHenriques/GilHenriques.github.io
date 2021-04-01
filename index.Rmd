@@ -1,17 +1,17 @@
 ---
 title:  | 
-        Gil J. B. Henriques, Ph.D.
+        Gil J. B. Henriques
         <p style="font-size:14px">Pronounced [[ʒiɫ ẽˈʁikɨʃ]](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) &#8226; Pronouns: *he/him/his*</p> 
         
 ---
 
 <img align="left" width="190" style="padding: 15px" src="./gjbh.png">
 
-**Hi! Welcome to my academic website.** I am a theoretical evolutionary biologist, which means I use mathematical models and computer simulations to investigate the interplay of evolutionary and ecological processes.
+I am a theoretical evolutionary biologist, which means I use mathematical models and computer simulations to investigate the interplay of evolutionary and ecological processes.
 My current research focuses on the evolution of social behaviors such as cooperation and conflict. 
 Past research topics have included sex allocation and biological diversification. 
 I use a theoretical approach (with an emphasis on adaptive dynamics and individual‑based simulations), occasionally in combination with empirical work.
-To learn more about my work, take at look at my [publications](./publications.html), watch my PhD [exit seminar](https://drive.google.com/file/d/1nkYLuEFouVqVUXvg4NqzLxNpD3SVc0La/view?usp=sharing), or [get in touch](./contact.html).
+To learn more about my work, take at look at my [publications](./publications.html), watch my Ph.D. [exit seminar](https://drive.google.com/file/d/1nkYLuEFouVqVUXvg4NqzLxNpD3SVc0La/view?usp=sharing), or [get in touch](./contact.html).
 
 <hr>
 
