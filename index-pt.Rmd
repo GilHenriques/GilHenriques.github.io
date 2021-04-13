@@ -1,0 +1,21 @@
+---
+title:  Gil J. B. Henriques
+---
+
+<img align="left" width="190" style="padding: 15px" src="./gjbh.png">
+
+Sou um biólogo na área da teoria evolutiva: uso modelos matemáticos e simulações computacionais para investigar a interação entre processos evolutivos e ecológicos.
+A minha investigação recente foca-se na evolução de comportamentos sociais, como a cooperação e o conflito.
+Tópicos de investigação anteriores includem o estudo da alocação sexual e da diversificação biológica.
+Uso uma abordagem teórica (com ênfase na dinâmica adaptativa e simulações ao nível individual), ocasionalmente combinada com trabalho empírico.
+Para aprender mais sobre o meu trabalho, dê uma vista de olhos às minhas [publicações](./publications.html) (página em inglês), veja o [seminário final](https://drive.google.com/file/d/1nkYLuEFouVqVUXvg4NqzLxNpD3SVc0La/view?usp=sharing) do meu doutoramento (em inglês) ou [entre em contacto](./contact.html) comigo.
+
+<hr>
+
+Defendi recentemente o meu doutoramento no [Biodiversity Research Centre](https://biodiversity.ubc.ca/), na [Universidade da Colúmbia Britânica](www.ubc.ca), em Vancouver BC, Canadá, sob a orientação do [Dr. Michael Doebeli](https://www.zoology.ubc.ca/~doebeli/webpage/). 
+
+Recebi o meu mestrado *summa cum laude* pelo Erasmus Mundus Master Programme in Evolutionary Biology ([MEME](https://www.evobio.eu/)), com um diploma duplo, na [Universidade de Groningen](https://www.rug.nl/) nos Países Baixos (orientado pelo [Dr. Ido Pen](https://www.rug.nl/staff/i.r.pen/)) e na [Universidade de Uppsala](https://www.uu.se/en/) na Suécia (orientado conjuntamente pelo [Dr. Claus Rueffler](https://katalog.uu.se/profile/?id=N13-2069) e pela [Dr.ª Simone Immler](https://simoneimmler.com/)). Fiz a minha licenciatura em Biologia na [Universidade de Lisboa](https://www.ulisboa.pt/en), no meu país de origem, Portugal.
+
+<hr>
+
+Atualmente, vivo e trabalho em Vancouver, BC, Canadá, no território ancestral, tradicional e ocupado dos povos xʷməθkʷəy̓əm, Sḵwx̱wú7mesh, e səlilwətaɬ.

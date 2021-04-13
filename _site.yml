@@ -18,6 +18,8 @@ navbar:
     - text: "get in touch!"
       icon: fa-envelope
       href: contact.html
+    - text: "esta página em português"
+      href: index-pt.html
 output:
   html_document:
     theme: "paper"
