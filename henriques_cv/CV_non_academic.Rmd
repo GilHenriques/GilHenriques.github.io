@@ -2,8 +2,8 @@
 name: Gil J. B.
 surname: Henriques
 position: "PhD in mathematical evolutionary biology"
-address: "Biodiversity Research Centre • University of British Columbia, Vancouver"
-phone: +1 604 352 0004
+address: "Fyrislundsgatan 39A • Uppsala 75 444, Sweden"
+phone: +46 073 4069771
 www: gilhenriques.github.io/
 email: "gilhenris@gmail.com"
 #twitter: mariecurie
