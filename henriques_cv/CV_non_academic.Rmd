@@ -3,7 +3,7 @@ name: Gil J. B.
 surname: Henriques
 position: "PhD in mathematical evolutionary biology"
 address: "Fyrislundsgatan 39A • Uppsala 75 444, Sweden"
-phone: +46 073 4069771
+phone: +46 76-781 33 59
 www: gilhenriques.github.io/
 email: "gilhenris@gmail.com"
 #twitter: mariecurie
