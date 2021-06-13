@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "home"
       icon: fa-home
-      href: gilhenriques.html
+      href: index.html
     #- text: "research"
     #  href: research.html
     - text: "publications"
