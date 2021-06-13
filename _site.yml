@@ -17,7 +17,7 @@ navbar:
       - text: "Academic"
         href: henriques_cv/CV.pdf
       - text: "Non-academic"
-        href: henriques_cv/CV_non_academic.Rmd
+        href: henriques_cv/CV_non_academic.pdf
   right:
     - text: "get in touch!"
       icon: fa-envelope
